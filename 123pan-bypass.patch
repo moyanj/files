@@ -1,0 +1,29 @@
+From fb4566aee428d226182d5da2d58e05182911313d Mon Sep 17 00:00:00 2001
+From: moyan <1561515308@qq.com>
+Date: Sun, 26 Oct 2025 13:35:40 +0800
+Subject: [PATCH] =?UTF-8?q?feat(drivers/123):=20=E4=BF=AE=E6=94=B9?=
+ =?UTF-8?q?=E5=B9=B3=E5=8F=B0=E6=A0=87=E8=AF=86=E4=B8=BAandroid?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ drivers/123/util.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/123/util.go b/drivers/123/util.go
+index 62fbaf90..9ec2cc84 100644
+--- a/drivers/123/util.go
++++ b/drivers/123/util.go
+@@ -203,7 +203,7 @@ do:
+ 		"referer":       "https://www.123pan.com/",
+ 		"authorization": "Bearer " + d.AccessToken,
+ 		"user-agent":    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) openlist-client",
+-		"platform":      "web",
++		"platform":      "android",
+ 		"app-version":   "3",
+ 		//"user-agent":    base.UserAgent,
+ 	})
+-- 
+2.51.1.dirty
+
